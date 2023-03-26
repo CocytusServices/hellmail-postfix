@@ -6,4 +6,4 @@ VOLUME /var/lib/postfix
 
 EXPOSE 25 465 587
 
-CMD ["/usr/sbin/postfix", "-c", "/etc/postfix", "start-fg"]
+CMD ["/usr/sbin/postfix", "-c", "/app", "start-fg"]
